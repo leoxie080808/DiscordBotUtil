@@ -43,20 +43,19 @@ let file = fs.createWriteStream('file.jpg');
 
 
 
-/*
+
 var download = function(url, dest){
     var file = fs.createWriteStream(dest);
     var request = http.get(url, function(response){
         response.pipe(file);
         file.on('finish', function(){
-            file.close(cb);
+            //file.close(cb);
         });
     }).on('error', function(err){
        fs.unlink(est);
-
     });
 };
-*/
+
 
 
 
@@ -93,4 +92,4 @@ client.on('message', message =>{
 
 
 
-client.login('NzM5NzA4NzI1NTM0OTE2NzI4.XyeZbw.RrySc71F04PT22GD3_ySLsZkWH4');
+client.login('NzM5NzA4NzI1NTM0OTE2NzI4.XyeZbw.Hjr3YXv7FRgge-EqoPhtzaAUcys');
